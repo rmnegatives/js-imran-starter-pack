@@ -1,4 +1,10 @@
 {
+  "opts": {
+    "template": "./node_modules/ink-docstrap/template",
+    "destination": "./docs/",
+    "recurse": true ,
+    "readme": "README.md"
+  },
   "source": {
     "includePattern": ".+\\.js(doc|x)?$",
     "excludePattern": "node_modules"
